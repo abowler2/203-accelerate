@@ -45,3 +45,25 @@ Text Domain:  accelerate-theme-child
     color: #45ac9d;
     text-transform: uppercase;
 }
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.homepage-featured-work li {
+    display: flex;
+    flex-basis: 33%;
+    flex-flow: row wrap;
+    padding: 0.75em;
+}
+
+figure img {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
